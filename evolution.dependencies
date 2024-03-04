@@ -1,0 +1,22 @@
+[
+  {
+    "repository": "LineageOS/android_device_mediatek_sepolicy_vndr",
+    "target_path": "device/mediatek/sepolicy_vndr",
+    "branch": "lineage-21"
+  },
+  {
+    "repository": "LineageOS/android_hardware_mediatek",
+    "target_path": "hardware/mediatek",
+    "branch": "lineage-21"
+  },
+  {
+    "repository": "xiaomi-mt6785-dev/android_kernel_xiaomi_mt6785",
+    "target_path": "kernel/xiaomi/mt6785",
+    "branch": "lineage-21"
+  },
+  {
+    "repository": "BootleggersROM-Devices/vendor_xiaomi_rosemary",
+    "target_path": "vendor/xiaomi/rosemary",
+    "branch": "urubino"
+  }
+]
