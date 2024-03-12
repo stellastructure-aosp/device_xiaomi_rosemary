@@ -10,9 +10,8 @@
     "branch": "lineage-21"
   },
   {
-    "repository": "xiaomi-mt6785-dev/android_kernel_xiaomi_mt6785",
-    "target_path": "kernel/xiaomi/mt6785",
-    "branch": "lineage-21"
+    "repository": "kernel_xiaomi_mt6785",
+    "target_path": "kernel/xiaomi/mt6785"
   },
   {
     "repository": "BootleggersROM-Devices/vendor_xiaomi_rosemary",
