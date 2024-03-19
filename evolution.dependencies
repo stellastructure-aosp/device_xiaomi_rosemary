@@ -1,10 +1,5 @@
 [
   {
-    "repository": "LineageOS/android_device_mediatek_sepolicy_vndr",
-    "target_path": "device/mediatek/sepolicy_vndr",
-    "branch": "lineage-21"
-  },
-  {
     "repository": "kernel_xiaomi_mt6785",
     "target_path": "kernel/xiaomi/mt6785"
   },
