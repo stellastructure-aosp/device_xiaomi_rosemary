@@ -118,7 +118,7 @@ BOARD_MAIN_PARTITION_LIST := \
     vendor
 
 # Reserve space for gapps install
--include vendor/evolution/config/BoardConfigReservedSize.mk
+-include $(CUSTOM_VENDOR_DIR)/config/BoardConfigReservedSize.mk
 
 BOARD_SYSTEMIMAGE_FILE_SYSTEM_TYPE := ext4
 BOARD_SYSTEM_EXTIMAGE_FILE_SYSTEM_TYPE := ext4
@@ -184,8 +184,7 @@ BOARD_AVB_VBMETA_VENDOR_ROLLBACK_INDEX_LOCATION := 3
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 DEVICE_MATRIX_FILE += $(DEVICE_PATH)/compatibility_matrix.xml
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
-    $(DEVICE_PATH)/framework_compatibility_matrix.xml \
-    vendor/evolution/config/device_framework_matrix.xml
+    $(DEVICE_PATH)/framework_compatibility_matrix.xml
 
 # VNDK
 BOARD_VNDK_VERSION := current
